@@ -1,4 +1,4 @@
-[TODO: Replace with your Netflify status badge]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a37680ad-9b00-437d-a737-2b3289ffd0e7/deploy-status)](https://app.netlify.com/sites/bright-otter-8beccd/deploys)
 
 # HTML and CSS Assessment
 
