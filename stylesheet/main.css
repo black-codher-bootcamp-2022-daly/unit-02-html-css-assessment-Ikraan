@@ -4,9 +4,8 @@
     margin: 0 auto;
     padding: 0;
 }
-.wrapperimg { background-color: black;
-width: 700px;
-
+.wrapperimg { 
+width: 600px;
 }
 
 div#wrapper img {
@@ -15,7 +14,7 @@ div#wrapper img {
   height: 0;
   margin: 0;
 }
-.Profile > img {max-width: 100;}
+.Profile-img > img {max-width: 100;}
 
 .wrapper > img {
     position: relative;
@@ -33,27 +32,24 @@ body {
     font-family: "Poiret One" "Gruppo";
     overflow-y: scroll;
 }
-
-
-div {
-    background-color: white;
-    width:auto;
-    padding: 10px;
-    margin-left: 10px;
-  }  
-
-.Profile { text-align: right;
-    width:900px;
+nav :hover {
+    text-decoration: overline;
+    text-align: center;
+    background-color: rgb(229, 196, 200);
 }
-.badge {background-color: transparent;}
-.badge > img {
+ 
+.Profile-img { text-align: right;
+    width:900px;
+    height: 40px;
+}
+.badge > img { 
+    width:250px;
     filter: blur(3px);
   }
-  
   img:hover {
-    filter: blur(0);
+    filter: blur(0); background-color: transparent;
   }
-.intro {position: ;}
+
   @keyframes color-change {
     0% { color: rgb(133, 8, 8); }
     20% { color: red; }
@@ -62,31 +58,37 @@ div {
     80% { color: rgb(253, 149, 166); }
     100% { color: rgb(195, 4, 4) ; }
 }
+
 #name {
-    animation: color-change 2s infinite;
-    text-align: left;
-    display:block;
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 25px;
+    animation: color-change 3s infinite;
+    font-size: 30px;
+    text-align:center;
 }
-h2 {
-    font-size:25px;
-    margin: 0;
-    padding: 0;
+ h1 {
+font-size: 25px;
+text-align: center;
+}
+h2:hover {
+    text-decoration: underline;
+    color:#bb6170}
+h3:hover {
+    text-decoration: underline;
+    color:#bb6170;
+}
+h4:hover {
+    text-decoration: underline;
+    color:#bb6170;
 }
 p {
     padding:10px;
-    margin: 7px;
+    margin-left: 45px;
     border: 2px solid black;
-    
+    width: 695px;  
 }
-.about-me {
-    margin-left: 1em;
-    align-items: right;
+#AboutMe {
+    margin-left: 10em;
     width: 750px;
+    font-size: 25px;
 }
 .Bio2 {
     display:flex;
@@ -94,53 +96,14 @@ p {
     align-items:flex-end;
 }
 
-
-
-div#timeline_container {
-    background-image: url('icon.jpg')
-    width: 400px;
-    margin: 0px;
-    width: 400px;
+.projects2 > li {text-align: left;
+    align-content: center;
 }
-
-div#timeline_container Profile {
-    position: relative;
-    z-index: 20;
+footer {background-color: rgb(229, 196, 200);
+padding: 0px;
+margin: 0px;
+height:120px
 }
-div#timeline_container Profile h1 {
-    position: relative;
-    top: 20px;
-    right:80px;
-    font-family: "poiret One" "Gruppo";
-    font-size: 13px;
-    text-shadow:2px 2px 1px black;
-    text-align: left;
+footer ul :hover { 
+    color:white;
 }
-
-div#timeline_container > ul {
-    position: relative;
-    background: white;
-    border-right:1px solid whitesmoke;
-    margin:auto;
-    padding:10px 0 0;
-    list-style:none;
-    text-align: left;
-}
-ul {
-    display:block;
-    position:center;
-    text-align: left;
-    text-align: center;
-    margin-block-start: 0.5;
-    margin-block-end: 0.5;
-    margin-inline-start: 0.5x;
-    margin-inline-end: 0.5px;
-    padding-inline-start: 40px;
-}
-/*.timeline-icon {
-    border: 2px solid black;*/
-    
-}
-.projects2 {text-align: left;}
-
-li {text-align: left;}
