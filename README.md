@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a37680ad-9b00-437d-a737-2b3289ffd0e7/deploy-status)](https://app.netlify.com/sites/bright-otter-8beccd/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a37680ad-9b00-437d-a737-2b3289ffd0e7/deploy-status)](https://app.netlify.com/sites/iki-ahmed.netlify.app)
 
 # HTML and CSS Assessment
 
