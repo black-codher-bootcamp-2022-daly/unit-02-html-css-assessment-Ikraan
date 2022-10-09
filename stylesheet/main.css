@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0;
+}
+.wrapperimg { 
+width: 600px;
+}
+
+div#wrapper img {
+    position: center;
+    max-width: 100%;
+  height: 0;
+  margin: 0;
+}
+.Profile-img > img {max-width: 100;}
+
+.wrapper > img {
+    position: relative;
+}
+body {
+    font-family: "Poiret One", "Gruppo";
+    font-size: 23px;
+    background: white;
+    color:black;
+}
+body {
+    background: transparent;
+    color:black;
+    font-size: 23px;
+    font-family: "Poiret One" "Gruppo";
+    overflow-y: scroll;
+}
+nav :hover {
+    text-decoration: overline;
+    text-align: center;
+    background-color: rgb(229, 196, 200);
+}
+ 
+.Profile-img { text-align: right;
+    width:900px;
+    height: 40px;
+}
+.badge > img { 
+    width:250px;
+    filter: blur(3px);
+  }
+  img:hover {
+    filter: blur(0); background-color: transparent;
+  }
+
+  @keyframes color-change {
+    0% { color: rgb(133, 8, 8); }
+    20% { color: red; }
+    40% { color: rgb(245, 105, 128); }
+    60% { color: #bb6170; }
+    80% { color: rgb(253, 149, 166); }
+    100% { color: rgb(195, 4, 4) ; }
+}
+
+#name {
+    animation: color-change 3s infinite;
+    font-size: 30px;
+    text-align:center;
+}
+ h1 {
+font-size: 25px;
+text-align: center;
+}
+h2:hover {
+    text-decoration: underline;
+    color:#bb6170}
+h3:hover {
+    text-decoration: underline;
+    color:#bb6170;
+}
+h4:hover {
+    text-decoration: underline;
+    color:#bb6170;
+}
+p {
+    padding:10px;
+    margin-left: 45px;
+    border: 2px solid black;
+    width: 695px;  
+}
+#AboutMe {
+    margin-left: 10em;
+    width: 750px;
+    font-size: 25px;
+}
+.Bio2 {
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+}
+
+.projects2 > li {text-align: left;
+    align-content: center;
+}
+footer {background-color: rgb(229, 196, 200);
+padding: 0px;
+margin: 0px;
+height:120px
+}
+footer ul :hover { 
+    color:white;
+}
