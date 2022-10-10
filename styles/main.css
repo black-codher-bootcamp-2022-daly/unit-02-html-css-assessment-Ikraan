@@ -96,7 +96,7 @@ p {
     align-items:flex-end;
 }
 
-.projects2 > li {text-align: left;
+.projects > li {text-align: left;
     align-content: center;
 }
 footer {background-color: rgb(229, 196, 200);
